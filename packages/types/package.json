@@ -1,0 +1,12 @@
+{
+    "name": "@repo/types",
+    "module": "index.js",
+    "type": "module",
+    "private": true,
+    "exports": {
+        ".": "./index.js"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    }
+}

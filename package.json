@@ -1,0 +1,21 @@
+{
+    "name": "collaboration-rerender-demo",
+    "module": "index.ts",
+    "type": "module",
+    "packageManager": "bun@1.0.25",
+    "scripts": {
+        "dev": "dotenv -- turbo dev --env-mode=loose"
+    },
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "devDependencies": {
+        "@types/bun": "latest",
+        "dotenv": "^16.4.5",
+        "turbo": "^2.1.2"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    }
+}
